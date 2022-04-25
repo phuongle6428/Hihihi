@@ -1,0 +1,63 @@
+.loginForm {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  height: 80%;
+  min-width: 450px;
+  /* max-width: 450px; */
+  flex-direction: column;
+  background-color: white;
+  padding: 40px;
+  transform: translateY(-50%);
+  transform-origin: center center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+}
+.loginForm h1 {
+  display: block;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.myForm{
+  margin-top: 40px;
+
+}
+.ant-input-prefix {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #0952A3;
+}
+a.ant-typography {
+  color: #0952A3;
+  font-weight: 700;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #0952A3;
+  border-color: #0952A3;
+}
+.ant-btn-primary{
+  background-color: #0952A3;
+}
+.ant-btn.login-form-button {
+  width: 100%;
+  font-size: 20px;
+  height: auto;
+  font-weight: 700;
+  padding: 12px 10px;
+}
+.ant-btn-default{
+  color: #808080;
+}
+.con {
+  color: #0952A3;
+  font-weight: 500;
+}
+.ant-input-suffix svg {
+  color: #0952A3;
+}
+.ant-input-affix-wrapper > input.ant-input {
+  padding: 6.5px 11px;
+}
